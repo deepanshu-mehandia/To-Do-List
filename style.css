@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik+Dirt&display=swap');
+body{
+    background: lavenderblush;
+    background-size: cover;
+}
+#clear{
+    position: absolute;
+    right: 25px;
+}
+button{
+    filter: drop-shadow(10px 5px 4px #ce9de3);
+
+}
+.fontsize{
+    font-size: 25px;
+}
+.allfont{
+    padding: 30px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(250, 250, 250);
+    filter: drop-shadow(20px 20px 5px #ce9de3);
+    border-radius: 10px;
+}
+.bg{
+    font-family: 'Rubik Dirt', cursive;
+    background-color: white;
+    padding: 15px;
+    filter: drop-shadow(10px 2px 5px #ce9de3);
+}
+.bg img{
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px #ce9de3);
+}
+.bg span{
+    margin: auto;
+    font-size: 30px;
+    color: black;
+}
+input{
+    filter: drop-shadow(10px 5px 4px #ce9de3);
+}
+textarea{
+    filter: drop-shadow(10px 5px 4px #ce9de3);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 5.5vh;
+    font-family: 'Noto Sans', sans-serif;
+    position: fixed;
+    width: 100vw;
+    filter: drop-shadow(10px 10px 25px #ce9de3);
+    bottom: 0;
+}
+footer p{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 20px;
+}
